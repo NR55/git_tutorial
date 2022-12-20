@@ -1,5 +1,9 @@
-#inlcude<stdlib.h>
+#inlcude<bits/stdc++.h>
+using namespace std;
 void main()
 {
-	cout<<"Hello There\n";
+	String s;
+	cout<<"Enter your name : ";
+	cin>>s;
+	cout<<"Hello there "<<s<<endl;
 }
